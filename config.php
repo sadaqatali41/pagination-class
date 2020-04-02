@@ -1,9 +1,9 @@
 <?php
 ob_start();
-$host 		= "your hostname";
-$user 		= "your username";
-$password 	= "your password";
-$database 	= "your database name";
+$host 		= "localhost: 3306";
+$user 		= "root";
+$password 	= "";
+$database 	= "landforc_new";
 $conn 		= New mysqli($host, $user, $password, $database);
 if ($conn->connect_error) 
 {
